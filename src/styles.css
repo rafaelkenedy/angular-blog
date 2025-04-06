@@ -1,1 +1,83 @@
-/* You can add global styles to this file, and also import other style files */
+/* Reset CSS */
+
+/* Remove margens e preenchimentos padrão */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd,
+dt {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define o modelo de caixa para borda-caixa para incluir preenchimento e borda na largura e altura totais de um elemento */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove a decoração de texto padrão de links */
+a {
+    text-decoration: none;
+}
+
+/* Remove estilos de lista padrão */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove estilos de imagem padrão */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Herda a família de fontes para elementos de entrada para consistência */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Remove estilos de botão padrão */
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* Remove estilos de area de texto padrão */
+textarea {
+    resize: vertical;
+}
+
+/* Define a fonte padrão e o tamanho da fonte para o corpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+/* Evita o ajuste automático do tamanho do texto em dispositivos móveis */
+html {
+    -webkit-text-size-adjust: 100%;
+
+    background-color: #111;
+    color: white;
+}
+
